@@ -1,9 +1,56 @@
-<mxfile host="app.diagrams.net" modified="2023-09-07T07:10:52.838Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" version="21.4.0" etag="0wZfkTvXV83Ds3Qc701g" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-07T07:55:13.206Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="H08keH74WT6zIezRsYv2" version="21.4.0" type="github">
   <diagram name="第 1 页" id="uQ2XquKf2iQMxZI9t2FS">
-    <mxGraphModel>
+    <mxGraphModel dx="689" dy="276" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-2" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Cache_Redis_Product.svg;" vertex="1" parent="1">
+          <mxGeometry x="260" y="191" width="50" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#66B2FF;" edge="1" parent="1" source="xlaZMZ2HwyHQiUtjjhmf-7" target="xlaZMZ2HwyHQiUtjjhmf-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="320" y="190" />
+              <mxPoint x="320" y="190" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-7" value="&lt;font style=&quot;font-size: 18px;&quot; color=&quot;#ffffff&quot;&gt;授权服务器&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003366;" vertex="1" parent="1">
+          <mxGeometry x="260" y="80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-11" value="" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Database_General.svg;" vertex="1" parent="1">
+          <mxGeometry x="470" y="85" width="38" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-14" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#66B2FF;" edge="1" parent="1" source="xlaZMZ2HwyHQiUtjjhmf-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="270" y="280" as="sourcePoint" />
+            <mxPoint x="470" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-15" value="&lt;font style=&quot;font-size: 18px;&quot; face=&quot;Georgia&quot;&gt;redis&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="320" y="193" width="60" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-20" value="&lt;font face=&quot;Georgia&quot; color=&quot;#ffffff&quot;&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;API网关&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#003366;" vertex="1" parent="1">
+          <mxGeometry x="250" y="280" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-21" value="&lt;font face=&quot;Georgia&quot; color=&quot;#ffffff&quot;&gt;OAuth filter&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;fillColor=#3399FF;" vertex="1" parent="1">
+          <mxGeometry x="275" y="290" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-26" value="&lt;font color=&quot;#ffffff&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="690" y="210" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-27" value="&lt;font color=&quot;#ffffff&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="700" y="220" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-28" value="&lt;font color=&quot;#ffffff&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="710" y="230" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-29" value="&lt;font color=&quot;#ffffff&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="720" y="240" width="20" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="xlaZMZ2HwyHQiUtjjhmf-30" value="&lt;font color=&quot;#ffffff&quot;&gt;1&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="730" y="250" width="20" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
