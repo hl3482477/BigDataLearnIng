@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T07:58:57.522Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="wex4qCcdmNzzS3AsyYT0" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-11T09:46:52.703Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="gmOJwopWFw8Z4x6GolGK" version="21.7.2" type="github">
   <diagram name="第 1 页" id="PI9pdBcrC0yFo4jlDJuw">
     <mxGraphModel dx="1033" dy="414" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -37,19 +37,31 @@
         <mxCell id="YwWAuVjvbFGcpqA_XS_w-11" value="用户名与密码正确" style="rhombus;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="445" y="70" width="110" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="YwWAuVjvbFGcpqA_XS_w-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="YwWAuVjvbFGcpqA_XS_w-14" edge="1">
+        <mxCell id="zqtbvOcToSusAaeei8e1-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="YwWAuVjvbFGcpqA_XS_w-14">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="190" as="targetPoint" />
+            <mxPoint x="500" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YwWAuVjvbFGcpqA_XS_w-14" value="生成token返回" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="YwWAuVjvbFGcpqA_XS_w-14" value="oauth密码模式生成token" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="455" y="220" width="90" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zqtbvOcToSusAaeei8e1-3" value="开始" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
           <mxGeometry x="90" y="80" width="80" height="50" as="geometry" />
         </mxCell>
         <mxCell id="zqtbvOcToSusAaeei8e1-5" value="结束" style="rounded=1;whiteSpace=wrap;html=1;arcSize=50;" vertex="1" parent="1">
-          <mxGeometry x="620" y="140" width="80" height="50" as="geometry" />
+          <mxGeometry x="620" y="170" width="80" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="zqtbvOcToSusAaeei8e1-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="zqtbvOcToSusAaeei8e1-8" target="zqtbvOcToSusAaeei8e1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqtbvOcToSusAaeei8e1-8" value="token值保存redis" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="452.5" y="330" width="95" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="zqtbvOcToSusAaeei8e1-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="zqtbvOcToSusAaeei8e1-10" target="zqtbvOcToSusAaeei8e1-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="zqtbvOcToSusAaeei8e1-10" value="返回token信息" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="615" y="330" width="90" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
