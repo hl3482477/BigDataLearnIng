@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-09-11T12:22:16.040Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="a5SB2sN0V1eWpQrrVquo" version="21.7.2" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-12T05:58:05.890Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="aZvsxJ_HTErLxlgPRFTt" version="21.7.2" type="github">
   <diagram name="第 1 页" id="UxUqlR1MUpsHNZttStHG">
     <mxGraphModel dx="1148" dy="397" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -13,7 +13,7 @@
         <mxCell id="u18kBkvq6fr6OHBMyRRc-15" value="apollo获取白名单url配置" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="205" y="300" width="105" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="u18kBkvq6fr6OHBMyRRc-17" value="遍历白名单列表，判断当前请求url是否为白名单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u18kBkvq6fr6OHBMyRRc-17" value="遍历判断当前请求url是否为NoTokenUrls白名单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="410" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="u18kBkvq6fr6OHBMyRRc-20" value="移除authorization以及port请求头" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -31,11 +31,29 @@
         <mxCell id="u18kBkvq6fr6OHBMyRRc-25" value="比较redis中Token与请求头带的token是否一致" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="190" y="1110" width="140" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="u18kBkvq6fr6OHBMyRRc-27" value="遍历白名单列表，判断当前请求url是否为白名单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="u18kBkvq6fr6OHBMyRRc-27" value="遍历判断当前请求url是否为tokenUrls白名单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="430" y="1110" width="140" height="90" as="geometry" />
         </mxCell>
         <mxCell id="u18kBkvq6fr6OHBMyRRc-28" value="返回token失效异常" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="447.5" y="1260" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u18kBkvq6fr6OHBMyRRc-29" value="判断是否为option请求" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="1110" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u18kBkvq6fr6OHBMyRRc-30" value="遍历判断当前请求url是否为白名单" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="1110" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u18kBkvq6fr6OHBMyRRc-32" value="请求头token是否为空" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="960" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u18kBkvq6fr6OHBMyRRc-33" value="当前请求url为非管理端" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="700" width="140" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="u18kBkvq6fr6OHBMyRRc-34" value="从user请求头获取用户类型" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="837.5" y="830" width="105" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="u18kBkvq6fr6OHBMyRRc-35" value="判断当前请求url的端口与用户类型匹配" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="827" y="560" width="140" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
